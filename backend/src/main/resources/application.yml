@@ -19,9 +19,9 @@ spring:
         # 数据源-1，名称为 primary
         primary:
           username: root
-          password: liudaolunhui
+          password: 960322
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://47.105.71.128:7832/thesixsectorteam?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+          url: jdbc:mysql://localhost:3306/thesixsectorteam?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
         # 数据源-2，名称为 test
 #        test:
 #          username: root
